@@ -23,8 +23,7 @@
         <div class="prev">
             <div class="circle bounce"></div>
         </div>
-        <div class="code">
-            <pre>
+        <pre>
                 <code>
                     @keyframes bounce {
                         0%, 20%, 50%, 80%, to {
@@ -41,7 +40,6 @@
                     }
                 </code>
             </pre>
-        </div>
     </div>
 
     <div class="animation">
@@ -52,20 +50,18 @@
         <div class="prev">
             <div class="circle slideLeft"></div>
         </div>
-        <div class="code">
-            <pre>
-                <code>
-                    @keyframes slideLeft {
-                        0% {
-                            transform: translateX(-50px);
-                        }
-                        100% {
-                            transform: translateX(50px);
-                        }
+        <pre>
+            <code>
+                @keyframes slideLeft {
+                    0% {
+                        transform: translateX(-50px);
                     }
-                </code>
-            </pre>
-        </div>
+                    100% {
+                        transform: translateX(50px);
+                    }
+                }
+            </code>
+        </pre>
     </div>
 
     <div class="animation">
@@ -76,20 +72,18 @@
         <div class="prev">
             <div class="circle slideRight"></div>
         </div>
-        <div class="code">
-            <pre>
-                <code>
-                    @keyframes slideRight {
-                        0% {
-                            transform: translateX(50px);
-                        }
-                        100% {
-                            transform: translateX(-50px);
-                        }
+        <pre>
+            <code>
+                @keyframes slideRight {
+                    0% {
+                        transform: translateX(50px);
                     }
-                </code>
-            </pre>
-        </div>
+                    100% {
+                        transform: translateX(-50px);
+                    }
+                }
+            </code>
+        </pre>
     </div>
 
     <div class="animation">
@@ -100,20 +94,18 @@
         <div class="prev">
             <div class="circle slideUp"></div>
         </div>
-        <div class="code">
-            <pre>
-                <code>
-                    @keyframes slideUp {
-                        0% {
-                            transform: translateY(50px);
-                        }
-                        100% {
-                            transform: translateY(-50px);
-                        }
-                    }                        
-                </code>
-            </pre>
-        </div>
+        <pre>
+            <code>
+                @keyframes slideUp {
+                    0% {
+                        transform: translateY(50px);
+                    }
+                    100% {
+                        transform: translateY(-50px);
+                    }
+                }                        
+            </code>
+        </pre>
     </div>
 
     <div class="animation">
@@ -124,20 +116,135 @@
         <div class="prev">
             <div class="circle slideDown"></div>
         </div>
-        <div class="code">
-            <pre>
-                <code>
-                    @keyframes slideDown {
-                        0% {
-                            transform: translateY(-50px);
-                        }
-                        100% {
-                            transform: translateY(50px);
-                        }
-                    }               
-                </code>
-            </pre>
+        <pre>
+            <code>
+                @keyframes slideDown {
+                    0% {
+                        transform: translateY(-50px);
+                    }
+                    100% {
+                        transform: translateY(50px);
+                    }
+                }               
+            </code>
+        </pre>
+    </div>
+
+    <div class="animation">
+        <div class="title">
+            Fade In
+            <p>Penggunaan fade in contohnya ketika memunculkan modal overlay</p>
         </div>
+        <div class="prev">
+            <div class="circle fadeIn"></div>
+        </div>
+        <pre>
+            <code>
+                @keyframes fadeIn {
+                    0% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                }           
+            </code>
+        </pre>
+    </div>
+
+    <div class="animation">
+        <div class="title">
+            Fade Out
+            <p>Penggunaan fade out contohnya ketika menghilangkan modal overlay</p>
+        </div>
+        <div class="prev">
+            <div class="circle fadeOut"></div>
+        </div>
+        <pre>
+            <code>
+                @keyframes fadeOut {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }            
+            </code>
+        </pre>
+    </div>
+
+    <div class="animation">
+        <div class="title">
+            Fly In Down
+            <p>Penggunaan flyInDown contohnya ketika menampilkan modal</p>
+        </div>
+        <div class="prev">
+            <div class="circle flyInDown"></div>
+        </div>
+        <pre>
+            <code>
+                @keyframes flyInDown {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(100px);
+                    }
+                    70% {
+                        opacity: 1;
+                        transform: translateY(0px);
+                    }
+                }     
+            </code>
+        </pre>
+    </div>
+
+    <div class="animation">
+        <div class="title">
+            Fly Out Down
+            <p>Penggunaan flyInDown contohnya ketika menampilkan modal</p>
+        </div>
+        <div class="prev">
+            <div class="circle flyOutDown"></div>
+        </div>
+        <pre>
+            <code>
+                @keyframes flyInDown {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(100px);
+                    }
+                    70% {
+                        opacity: 1;
+                        transform: translateY(0px);
+                    }
+                }     
+            </code>
+        </pre>
+    </div>
+
+    <div class="animation">
+        <div class="title">
+            Fly In Left
+            <p>Penggunaan flyInDown contohnya ketika menampilkan modal</p>
+        </div>
+        <div class="prev">
+            <div class="rect flyInLeft"></div>
+        </div>
+        <pre>
+            <code>
+                @keyframes flyInLeft {
+                    0% {
+                        opacity: 0;
+                        transform: translateX(-50px) translateY(25px) rotate(-15deg);
+                    }
+                    70% {
+                        opacity: 1;
+                        transform: translateX(0px) translateY(0px) rotate(0deg);
+                        
+                    }
+                }         
+            </code>
+        </pre>
     </div>
 </body>
 

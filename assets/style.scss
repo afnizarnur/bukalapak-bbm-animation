@@ -47,24 +47,36 @@
             border-radius: 100%;
             align-self: center;
         }
-    }
 
-    .code {
+        .rect {
+            padding: 30px;
+            background: #0089C9;
+            display: inline-block;
+            border-radius: 10px;
+            align-self: center;
+        }
+    }
+    pre {
         width: 70%;
+        box-sizing: border-box;
         background: #000;
-        line-height: 23px;
+        padding: 0!important;
+        margin: 0!important;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
+        line-height: 23px;
 
-        pre {
-            margin: 0;
-            padding: 0;
-            
+        code {
+            background: none;
+            padding: 0!important;
         }
 
         .hljs {
-            padding: 0px;
-            background: none;
+            display: inline;
+            top: 10px;
+            left: -30px;
+            overflow: none;
+            position: relative;
         }
     }
 }
