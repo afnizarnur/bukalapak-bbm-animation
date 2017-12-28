@@ -1,6 +1,18 @@
 .bounce {
   animation: bounce 1s infinite cubic-bezier(0.075, 0.82, 0.165, 1); }
 
+.slideLeft {
+  animation: slideLeft 0.8s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01); }
+
+.slideRight {
+  animation: slideRight 0.8s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01); }
+
+.slideUp {
+  animation: slideUp 0.8s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01); }
+
+.slideDown {
+  animation: slideDown 0.8s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01); }
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, to {
     transform: translateY(0); }
@@ -8,3 +20,27 @@
     transform: translateY(-15px); }
   60% {
     transform: translateY(-5px); } }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-50px); }
+  100% {
+    transform: translateX(50px); } }
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(50px); }
+  100% {
+    transform: translateX(-50px); } }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(-50px); } }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-50px); }
+  100% {
+    transform: translateY(50px); } }
