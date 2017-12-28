@@ -29,7 +29,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/animation.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/assets\/favicon.png": {
@@ -70,7 +70,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/index.html": {
@@ -1999,7 +1999,7 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
