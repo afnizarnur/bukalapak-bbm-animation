@@ -34,14 +34,6 @@
     animation: flyOutDown .8s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01);
 }
 
-.flyInLeft {
-    animation: flyInLeft .6s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01);
-}
-
-.flyOutRight {
-    animation: flyOutRight .6s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01);
-}
-
 @keyframes bounce {
     0%, 20%, 50%, 80%, to {
         transform: translateY(0);
@@ -130,27 +122,5 @@
     70% {
         opacity: 0;
         transform: translateY(100px);
-    }
-}
-
-@keyframes flyInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px) translateY(25px) rotate(-15deg);
-    }
-    70% {
-        opacity: 1;
-        transform: translateX(0px) translateY(0px) rotate(0deg);
-    }
-}
-
-@keyframes flyOutRight {
-    0% {
-        opacity: 1;
-        transform: translateX(0px) translateY(0px) rotate(0deg);
-    }
-    70% {
-        opacity: 0;
-        transform: translateX(50px) translateY(25px) rotate(15deg);
     }
 }
