@@ -60,23 +60,15 @@
         width: 70%;
         box-sizing: border-box;
         background: #000;
-        padding: 0!important;
         margin: 0!important;
+        padding: 0px 40px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         line-height: 23px;
-
+        
         code {
             background: none;
-            padding: 0!important;
-        }
-
-        .hljs {
-            display: inline;
-            top: 10px;
-            left: -30px;
-            overflow: none;
-            position: relative;
+            overflow-x: hidden;
         }
     }
 }
