@@ -16,7 +16,7 @@
     <div class="animation">
         <div class="title">
             Bounce
-            <p>Penggunaan bounce contohnya ketika user menambahkan barang ke cart.</p>
+            <p>Usage bounce animation for example when user adds item to cart.</p>
         </div>
         <div class="prev">
             <div class="circle bounce"></div>
@@ -49,7 +49,7 @@
     <div class="animation">
         <div class="title">
             Slide Left
-            <p>Penggunaan slide left contohnya ketika memunculkan page overlay atau page diatasnya page.</p>
+            <p>Usage of slide left animation for example when showing page overlay.</p>
         </div>
         <div class="prev">
             <div class="circle slideLeft"></div>
@@ -74,7 +74,7 @@
     <div class="animation">
         <div class="title">
             Slide Right
-            <p>Penggunaan slide right contohnya ketika memunculkan page overlay atau page diatasnya page.</p>
+            <p>Usage of slide right animation for example when showing page overlay.</p>
         </div>
         <div class="prev">
             <div class="circle slideRight"></div>
@@ -99,7 +99,7 @@
     <div class="animation">
         <div class="title">
             Slide Up
-            <p>Penggunaan slide up contohnya ketika memunculkan page overlay atau page diatasnya page.</p>
+            <p>Usage of slide up animation for example when showing page overlay.</p>
         </div>
         <div class="prev">
             <div class="circle slideUp"></div>
@@ -124,7 +124,7 @@
     <div class="animation">
         <div class="title">
             Slide Down
-            <p>Penggunaan slide down contohnya ketika memunculkan page overlay atau page diatasnya page.</p>
+            <p>Usage of slide down animation for example when showing page overlay.</p>
         </div>
         <div class="prev">
             <div class="circle slideDown"></div>
@@ -149,7 +149,7 @@
     <div class="animation">
         <div class="title">
             Fade In
-            <p>Penggunaan fade in contohnya ketika memunculkan modal overlay</p>
+            <p>Usage of fade in animation for example when showing popup overlay.</p>
         </div>
         <div class="prev">
             <div class="circle fadeIn"></div>
@@ -174,7 +174,7 @@
     <div class="animation">
         <div class="title">
             Fade Out
-            <p>Penggunaan fade out contohnya ketika menghilangkan modal overlay</p>
+            <p>Usage of fade out animation for example when hiding popup overlay.</p>
         </div>
         <div class="prev">
             <div class="circle fadeOut"></div>
@@ -199,7 +199,7 @@
     <div class="animation">
         <div class="title">
             Fly In Down
-            <p>Penggunaan flyInDown contohnya ketika menampilkan modal</p>
+            <p>Usage of fly in down animation for example when showing popup.</p>
         </div>
         <div class="prev">
             <div class="circle flyInDown"></div>
@@ -226,7 +226,7 @@
     <div class="animation">
         <div class="title">
             Fly Out Down
-            <p>Penggunaan flyInDown contohnya ketika menampilkan modal</p>
+            <p>Usage of fly out down animation for example when hiding popup.</p>
         </div>
         <div class="prev">
             <div class="circle flyOutDown"></div>
@@ -237,16 +237,16 @@
     animation: flyOutDown .8s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01);
 }
 
-@keyframes flyInDown {
+@keyframes flyOutDown {
     0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    70% {
         opacity: 1;
         transform: translateY(0px);
     }
-} </code>
+    70% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+</code>
         </pre>
     </div>
 </body>
