@@ -80,26 +80,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/js\/scripts-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/scripts-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/scripts.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/scripts-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
