@@ -9,17 +9,17 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/assets\/animation.css": {
+	"\/assets\/css\/animation.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/animation-min.css",
+		"oAP": "\/assets\/css\/animation-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/assets\/animation.scss": {
+	"\/assets\/css\/animation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -27,21 +27,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/animation.css",
+		"oAP": "\/assets\/css\/animation.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/favicon.png": {
-		"ft": 32768,
-		"iS": 1253,
+	"\/assets\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/favicon.png",
+		"oAP": "\/assets\/css\/style-min.css",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"oS": 3
+		},
+	"\/assets\/css\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/style.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/assets\/Icon\r": {
 		"cB": 0,
@@ -50,38 +62,36 @@
 		"oAP": "\/assets\/Icon\r",
 		"oF": 0
 		},
-	"\/assets\/scripts.js": {
+	"\/assets\/images\/favicon.png": {
+		"ft": 32768,
+		"iS": 817,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/js\/scripts-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/scripts-min.js",
+		"oAP": "\/assets\/js\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
+	"\/assets\/js\/scripts.js": {
+		"ft": 64,
 		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/style-min.css",
+		"oAP": "\/assets\/js\/scripts-min.js",
 		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/style.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
+		"sC": 1,
+		"tS": 0
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -97,9 +107,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 536137666,
-	"displayValue": "Animation",
+	"displayValue": "bukalapak-bbm-animation",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-leo"
+	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
