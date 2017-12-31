@@ -1,3 +1,9 @@
+// Mixins
+@mixin bounce($time: false, $count: false) {
+    animation: bounce if($time, $time, 1) $count cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+// Animations
 .bounce {
     animation: bounce 1s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -32,11 +38,6 @@
 
 .flyOutDown {
     animation: flyOutDown 0.8s infinite cubic-bezier(0.6, 0.01, 0.13, 1.01);
-}
-
-// Mixins
-@mixin bounce($time: false, $count: false) {
-    animation: bounce $time $count cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 // Keyframes
