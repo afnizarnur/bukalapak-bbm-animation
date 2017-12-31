@@ -50,6 +50,16 @@
 		"oAP": "\/assets\/Icon\r",
 		"oF": 0
 		},
+	"\/assets\/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/style.css": {
 		"aP": 1,
 		"bl": 0,

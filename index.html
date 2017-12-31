@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </head>
+
 <body>
     <div class="container">
         <div class="title">
@@ -22,7 +24,7 @@
             <div class="circle bounce"></div>
         </div>
         <div class="column">
-            
+
         </div>
         <pre>
             <code>
@@ -258,8 +260,16 @@
     </div>
 
     <div class="container example">
-        <div class="modal"></div>
-        <div class="overlay"></div>
+        <button id="open-modal">Open Modal</button>
+
+        <div id="modal" class="modal">
+            <div id="modal-content" class="modal-content">
+
+            </div>
+        </div>
     </div>
+
+    <script src="assets/scripts.js"></script>
 </body>
+
 </html>
